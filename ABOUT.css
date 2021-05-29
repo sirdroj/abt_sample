@@ -1,0 +1,174 @@
+*{
+    font-family: sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+.topimage{
+    background-image:url("photos/bg3.jpg");
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position-y: 60%;
+    color: rgb(185, 185, 185);
+    text-shadow: rgb(8, 8, 8) 0 0 5px;
+    font-size: x-large;
+    text-align: center;
+opacity: 0.7;
+}
+.sometext{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height:50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: large;
+    color: rgb(121, 121, 121);
+}
+.logoarea .text{
+text-align: center;
+font-size: x-large;
+text-align: center;
+width: 70%;
+padding-left: 15%;
+}
+.text p{
+    color: rgb(88, 88, 88);
+    font-size:large;
+    
+}
+.text h1{
+    color: rgb(46, 45, 45);
+    
+}
+.logoblocks{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.blocks{
+    width:100%;
+    padding: 5%;
+    text-align: center;
+}
+.blocks h3{
+    color: rgb(73, 73, 73);
+}
+.blocks p{
+    color: rgb(150, 150, 150);
+}
+.team{
+    text-align: center;
+    width: 100vw;
+    overflow-y: auto;
+}
+.membersimg{
+    width: 100%;
+    float: left ;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.imgblock{
+    width: 450px;
+
+}
+.toptext{
+    margin-bottom: 50px;
+    color: rgb(129, 128, 128);
+}
+
+.toptext h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(46, 45, 45);
+    font-size: xx-larger;
+}
+.imgblock img{
+    z-index: 2;
+    width: 200px;
+    height: 200px;
+    border: rgba(192, 192, 192, 0) solid;
+    border-radius: 4%;
+    box-shadow: black 0px 0px 10px;
+    position: relative;
+    top: 0;
+    left: 0%;
+}
+.membertext{
+    z-index: 1;
+}
+footer{
+    height: 5vh;
+    background-image: linear-gradient(to bottom,white, lightblue,rgb(157, 170, 214));
+    text-align: center;
+    padding: 5%;
+}
+@media only screen and (min-width: 768px) {
+    body {
+      background-color: lightblue;
+    }
+    .imgblock{
+        width: 50%;
+    }
+    p{
+        font-size: xx-large;
+    }
+    h3{
+        font-size: 70px;
+    }
+    h2{
+        font-size: xx-large;
+    }
+   .toptext h1{
+        font-size: 70px;
+    }
+    footer{
+        font-size: 30px;
+    }
+    .sometext,.text p{
+        font-size: 20px;
+        padding: 5px;
+    }
+    *{;
+    }
+  }
+@media only screen and (min-width: 1025px) {
+    .logoblocks
+    {
+        display: flex;
+        justify-content: center;
+    }
+    .blocks{
+        width:25%;
+        padding: 2%;
+        text-align: center;
+    }
+    body {
+      background-color: rgb(255, 255, 255);
+    }
+    .imgblock{
+        width: 450px;
+    }
+    p{
+        font-size:large;
+    }
+    h3{
+        font-size: 30px;
+    }
+    h2{
+        font-size: large;
+    }
+   .toptext h1{
+        font-size: 40px;
+    }
+    footer{
+        font-size: 30px;
+    }
+    .sometext,.text p{
+        font-size: 20px;
+        padding: 5px;
+    }
+  }
